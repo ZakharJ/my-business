@@ -1,0 +1,48 @@
+<section class="grid">
+      <div class="card">
+        <h3>Refunds & Cancellation</h3>
+        <p class="small"><strong>Book refunds:</strong> Handled according to Gumroad's refund policy displayed on the Gumroad product page. If a refund is requested within Gumroad's refund window, we will follow Gumroad procedures.</p>
+        <p class="small" style="margin-top:8px;"><strong>Subscription refunds:</strong> Members may cancel subscriptions at any time. Refund requests for subscription payments are handled case-by-case; our standard policy is to consider refund requests within 14 days of purchase, except where local laws require otherwise.</p>
+      </div>
+
+      <div class="card">
+        <h3>Data & Privacy</h3>
+        <p class="small">We collect minimal personal data required to deliver digital access: name and email address. We do not sell customer personal data. Full privacy policy and terms are available on request.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p class="small">For questions, verification or support please contact:</p>
+      <p class="small"><strong>Email:</strong> <a href="mailto:hello.website.org@gmail.com">hello.website.org@gmail.com</a></p>
+      <p class="muted">Please use this email for payment provider verification, chargeback inquiries or customer support.</p>
+    </section>
+
+    <section>
+      <h2>Suggested fields for Stripe (copy-paste)</h2>
+
+      <h4>Statement descriptor (what appears on customer's bank statement):</h4>
+      <pre>SALES ACADEMY</pre>
+      <p class="muted">Use all caps, 5–22 characters, latin letters and spaces only.</p>
+
+      <h4 style="margin-top:12px;">Business description (for Stripe 'Business description' field):</h4>
+      <pre>Paid subscription access to a private Telegram club and a digital book that teach professional sales techniques. Members receive live and recorded lessons, templates, scripts and community support. Delivery: digital (Telegram invite and book download).</pre>
+      <p class="muted">Copy this exact text into Stripe's Business description to speed up verification.</p>
+    </section>
+
+    <section>
+      <h2>Notes for payment reviewers</h2>
+      <ul class="small">
+        <li>The Gumroad product page linked above contains the full description of the book, digital delivery details and Gumroad's refund policy.</li>
+        <li>Telegram access is provided via invite link after payment. Delivery is digital only.</li>
+        <li>Contact email for verification: <strong>hello.website.org@gmail.com</strong></li>
+        <li>We use Stripe for subscription payments and Gumroad for the book sales.</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p class="muted">This is a static verification page intended to be used as the website URL in payment provider settings. Publish this page on GitHub Pages (https://<your-username>.github.io/<repo>/) and provide that URL to Stripe. Replace any placeholder links or texts with your official values when available.</p>
+    </footer>
+  </main>
+</body>
+</html>
